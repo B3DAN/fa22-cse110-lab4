@@ -46,3 +46,7 @@ e. true is converted to number which is false
 f. Boolean(2) returns true and which is equivalent to true
 
 15. === checks equality without type conversion
+
+17. when newArr is returned, each original value will be multiplied by 2. This occurs because doSomething which multiplies a num by two is called on each part of the array passed in.
+
+19. 1 4 3 2. One prints first, 2 prints after a second, so 3 and 2 excute first, and 2 executes before 3 because even though it was 0, a time was still set for it.
